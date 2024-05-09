@@ -19,6 +19,12 @@
 /dev/sec-nfc                                            u:object_r:sec_device:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@1\.2-service\.samsung       u:object_r:hal_nfc_default_exec:s0
 
+<<<<<<< HEAD
+=======
+# Power
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr                      u:object_r:hal_power_default_exec:s0
+
+>>>>>>> 763bd19 (blossom: Use pixel power HAL directly)
 # Data files
 /data/per_boot(/.*)?                                                 u:object_r:per_boot_file:s0
 

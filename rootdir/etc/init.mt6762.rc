@@ -732,6 +732,7 @@ on boot
     chmod 664 /proc/ppm/policy/ut_fix_freq_idx
     chown system system /proc/ppm/policy/ut_fix_freq_idx
 
+<<<<<<< HEAD
 on property:vold.decrypt=trigger_reset_main
     setprop sys.boot_completed 0
     setprop dev.bootcomplete 0
@@ -764,6 +765,11 @@ on property:sys.camera.sensormode.apk=0
 
 on property:sys.camera.ctsverify.apk=1
     setprop vendor.camera.ctsverify.apk 5
+=======
+on boot
+    # Power HAL
+    setprop vendor.powerhal.init 1
+>>>>>>> 763bd19 (blossom: Use pixel power HAL directly)
 
 on init
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice

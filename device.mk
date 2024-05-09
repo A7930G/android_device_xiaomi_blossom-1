@@ -238,7 +238,11 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 
 # Power
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     android.hardware.power-service.mediatek-libperfmgr \
+=======
+    android.hardware.power-service.pixel-libperfmgr \
+>>>>>>> 763bd19 (blossom: Use pixel power HAL directly)
     android.hardware.power@1.0.vendor \
     android.hardware.power@1.1.vendor \
     android.hardware.power@1.2.vendor \
