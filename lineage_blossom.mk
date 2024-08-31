@@ -17,6 +17,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 scr_resolution := 720
 
+#ProjectSakura stuffs.
+SAKURA_MAINTAINER := AsTechpro20
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := lineage_blossom
 PRODUCT_DEVICE := blossom
 PRODUCT_MANUFACTURER := Xiaomi
