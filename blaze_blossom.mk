@@ -21,6 +21,7 @@ scr_resolution := 720
 BLAZE_MAINTAINER := AsTechpro20
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+ROM_FOLDER := blaze
 
 PRODUCT_NAME := blaze_blossom
 PRODUCT_DEVICE := blossom
