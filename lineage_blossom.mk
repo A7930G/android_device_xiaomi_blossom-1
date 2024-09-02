@@ -17,6 +17,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 scr_resolution := 720
 
+# Matrixx stuff.
+MATRIXX_MAINTAINER := AsTechpro20
+MATRIXX_CHIPSET := MT6765
+MATRIXX_BATTERY := 5000mAh
+MATRIXX_DISPLAY := 720x1600
+
 PRODUCT_NAME := lineage_blossom
 PRODUCT_DEVICE := blossom
 PRODUCT_MANUFACTURER := Xiaomi
