@@ -20,6 +20,7 @@ scr_resolution := 720
 # ProjectBlaze stuffs.
 BLAZE_MAINTAINER := AsTechpro20
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := blaze_blossom
 PRODUCT_DEVICE := blossom
