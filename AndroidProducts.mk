@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/blaze_blossom.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_blossom-user \
-    blaze_blossom-userdebug \
-    blaze_blossom-eng
+    blaze_blossom-ap2a-user \
+    blaze_blossom-ap2a-userdebug \
+    blaze_blossom-ap2a-eng
