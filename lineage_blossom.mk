@@ -19,7 +19,6 @@ scr_resolution := 720
 
 #TenX-OS-14 stuffs.
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
 
 PRODUCT_NAME := lineage_blossom
