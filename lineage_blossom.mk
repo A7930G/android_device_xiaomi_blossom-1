@@ -17,6 +17,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 scr_resolution := 720
 
+#EverestOS-14 stuffs.
+EVEREST_MAINTAINER := AsTechpro20
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
 PRODUCT_NAME := lineage_blossom
 PRODUCT_DEVICE := blossom
 PRODUCT_MANUFACTURER := Xiaomi
