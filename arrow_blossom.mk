@@ -21,6 +21,7 @@ scr_resolution := 720
 DEVICE_MAINTAINER := AsTechpro20
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := true
+ROM_FOLDER := arrow
 
 PRODUCT_NAME := arrow_blossom
 PRODUCT_DEVICE := blossom
