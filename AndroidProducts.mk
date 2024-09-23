@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_blossom.mk
+    $(LOCAL_DIR)/arrow_blossom.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_blossom-user \
-    lineage_blossom-userdebug \
-    lineage_blossom-eng
+    arrow_blossom-user \
+    arrow_blossom-userdebug \
+    arrow_blossom-eng
