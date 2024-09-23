@@ -12,12 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/blossom/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
 
 scr_resolution := 720
 
-PRODUCT_NAME := lineage_blossom
+# ArrowOS stuffs.
+DEVICE_MAINTAINER := AsTechpro20
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
+
+PRODUCT_NAME := arrow_blossom
 PRODUCT_DEVICE := blossom
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
