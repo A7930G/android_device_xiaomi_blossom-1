@@ -18,6 +18,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 scr_resolution := 720
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := true
+DERP_BUILD_ZIP_TYPE := VANILLA
 
 PRODUCT_NAME := derp_blossom
 PRODUCT_DEVICE := blossom
