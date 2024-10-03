@@ -12,14 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/blossom/device.mk)
 
-# Inherit some common VoltageOS stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common DroidX-UI-14 stuff.
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
 scr_resolution := 720
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := true
 
-PRODUCT_NAME := voltage_blossom
+PRODUCT_NAME := droidx_blossom
 PRODUCT_DEVICE := blossom
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
