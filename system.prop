@@ -74,6 +74,11 @@ wifi.direct.interface=p2p0
 wifi.interface=wlan0
 wifi.tethering.interface=ap0
 
+# DroidX-UI stuffs
+ro.droidx.chipset=MediaTek 6765
+ro.droidx.display_resolution=720x1600
+ro.droidx.maintainer=AsTechpro20
+
 # Zygote
 ro.zygote.preload.enable=0
 
