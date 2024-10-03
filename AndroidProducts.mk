@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_blossom.mk 
+    $(LOCAL_DIR)/droidx_blossom.mk 
 
 COMMON_LUNCH_CHOICES := \
-    voltage_blossom-user \
-    voltage_blossom-userdebug \
-    voltage_blossom-eng
+    droidx_blossom-user \
+    droidx_blossom-userdebug \
+    droidx_blossom-eng
