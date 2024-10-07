@@ -23,6 +23,7 @@ TARGET_ENABLE_BLUR := true
 # RisingOS stuffs.
 RISING_CHIPSET := MediaTek 6765
 RISING_MAINTAINER := AsTechpro20
+PRODUCT_NO_CAMERA := true
 
 PRODUCT_NAME := lineage_blossom
 PRODUCT_DEVICE := blossom
