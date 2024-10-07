@@ -388,10 +388,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RevampedFMRadio
 
-# Camera
-PRODUCT_PACKAGES += \
-    Aperture
-
 # Browser
 PRODUCT_PACKAGES += \
     Jelly
