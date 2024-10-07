@@ -388,26 +388,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RevampedFMRadio
 
-# Camera
-PRODUCT_PACKAGES += \
-    Aperture
-
-# Browser
-PRODUCT_PACKAGES += \
-    Jelly
-
-# Calendar
-PRODUCT_PACKAGES += \
-    Etar
-
-# Gallery
-PRODUCT_PACKAGES += \
-    Glimpse
-
-# Music Player
-PRODUCT_PACKAGES += \
-    Eleven
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
