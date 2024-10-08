@@ -388,6 +388,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RevampedFMRadio
 
+# LatinIME keyboard
+PRODUCT_PACKAGES += \
+    LatinIME
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
