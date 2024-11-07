@@ -18,6 +18,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 scr_resolution := 720
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 WITH_GMS := false
 
 PRODUCT_NAME := lineage_blossom
