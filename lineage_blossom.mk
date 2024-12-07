@@ -17,10 +17,15 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 scr_resolution := 720
 
-#AlphaDroid stuffs.
-ALPHA_MAINTAINER := AsTechpro20
+# Rising Stuffs.
+RISING_MAINTAINER="AsTechpro20"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="MediaTek 6765" \
+    RisingMaintainer="AsTechpro20"
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+WITH_GMS := true
 
 PRODUCT_NAME := lineage_blossom
 PRODUCT_DEVICE := blossom
