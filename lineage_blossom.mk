@@ -17,8 +17,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 scr_resolution := 720
 
-#AlphaDroid stuffs.
-ALPHA_MAINTAINER := AsTechpro20
+#MistOS stuffs.
+MISTOS_MAINTAINER= AsTechpro20
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
 
